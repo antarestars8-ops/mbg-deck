@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MBG Digital Policy Feedback · Asita Sekar Asri</title>
+<title>MBG Digital Policy Feedback · SNU GDI APDP</title>
 <!-- GZ:FONTS:START · 字体由 guizang-design 字体清单生成；需要把字体内置进 HTML 时用 gz-fonts.mjs embed（卡片 skill 的 render.mjs 会自动内置） -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1666,6 +1666,13 @@
     .grid-12{grid-template-columns:repeat(6,1fr)}
   }
 
+.ev-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2vh 2vw}
+.ev{display:grid;grid-template-columns:auto 1fr;gap:.9vw;align-items:start;border-top:1px solid var(--border-subtle);padding-top:1vh}
+.ev-n{display:inline-flex;align-items:center;justify-content:center;width:1.9em;height:1.9em;border-radius:50%;background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:max(13px,.8vw);font-weight:600}
+.tp{display:flex;justify-content:space-between;gap:1vw;align-items:baseline;border-bottom:1px solid var(--border-subtle);padding:1.2vh 0}
+.tp-n{font-family:var(--sans);font-weight:200;font-size:min(2.6vw,4.6vh);letter-spacing:-.03em}
+.why.accent .tp-n{color:var(--accent-ink)}
+
 /* ---- deck helpers (MBG): bottom safe zone for nav/hint ---- */
 .slide:not(.split) .canvas-card{padding-bottom:var(--nav-safe-bottom)}
 .split-half > .half{padding-bottom:var(--nav-safe-bottom)!important}
@@ -1751,121 +1758,129 @@
 
 <section class="slide light" data-layout="S01" data-animate="statement" data-slide-id="cover">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">SNU GSPA · Global MPA thesis</div><div class="r">01 / 14</div></div>
+    <div class="chrome-min"><div class="l">SNU GDI · APDP</div><div class="r">01 / 20</div></div>
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
       <div data-anim="kicker" class="t-meta" style="letter-spacing:.22em">Indonesia · Free Nutritious Meal (MBG) · X, 2024–2026</div>
       <h1 data-anim="title" style="align-self:center;font-family:var(--sans);font-weight:200;font-size:min(7.2vw,12.6vh);line-height:.98;letter-spacing:-.035em;color:var(--text-primary)">Digital policy feedback<br>in the <span style="color:var(--accent-ink);font-weight:300">social media</span> age</h1>
       <div data-anim="bottom" style="display:grid;gap:1.8vh;border-top:1px solid var(--border-subtle);padding-top:2.4vh">
         <div class="pg-lead" style="max-width:62ch">Computational analysis of public perception of Indonesia's Free Nutritious Meal programme</div>
         <div style="display:flex;justify-content:space-between;align-items:end;gap:2vw;flex-wrap:wrap">
-          <div class="t-meta">Asita Sekar Asri · Advisor: Prof. Kilkon Ko</div>
-          <div class="t-meta">Committee: Prof. Changyong Choi (chair) · Prof. Sooyoung Lee</div>
+          <div class="t-meta">Asita Sekar Asri · Graduate School of Public Administration, Seoul National University</div>
+          <div style="display:flex;gap:1.2vw;align-items:center"><img src="images/snu.webp" alt="Seoul National University" style="height:min(5.6vh,3.2vw);width:auto"><img src="images/gdi.png" alt="SNU GDI" style="height:min(3.8vh,2.2vw);width:auto"></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="slide light" data-layout="S19" data-animate="statement" data-slide-id="questions">
+<section class="slide light" data-layout="S11" data-animate="timeline-walk" data-slide-id="context">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">02 / 14</div></div>
-    <div data-anim="line" class="pg-head"><span class="accent-tick"></span><div class="t-meta">Questions · Policy feedback theory (Soss &amp; Schram, 2007)</div><h2 class="pg-title">How did MBG talk on X change across the rollout?</h2>
-    <p class="pg-lead">One idea guides the reading: people judge a policy differently when they meet it at first hand (visible and close) than when they know it from the news (visible but distant).</p></div>
-    <div data-anim="cards" class="four" style="margin-top:4vh"><div class="fc"><div class="t-meta">— 01 / Stance</div><h3 class="fc-h">How does stance differ between 2024, 2025 and 2026?</h3><p class="pg-small" style="color:var(--accent-ink)">H1 · More negative in the Sep 2025 poisoning wave</p></div><div class="fc"><div class="t-meta">— 02 / Topics</div><h3 class="fc-h">Which problems dominate each phase?</h3><p class="pg-small" style="color:var(--accent-ink)">H3 · From food safety to governance and corruption</p></div><div class="fc"><div class="t-meta">— 03 / Network</div><h3 class="fc-h">Who carries the discussion, and is it genuine?</h3><p class="pg-small" style="color:var(--accent-ink)">H2 · Co-timed replies occur more than chance</p></div><div class="fc"><div class="t-meta">— 04 / Events</div><h3 class="fc-h">How does it line up with official events and statistics?</h3><p class="pg-small" style="color:var(--accent-ink)">Exploratory</p></div></div>
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">02 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Context</div><h2 class="pg-title">A large, visible programme<br>that soon ran into visible problems</h2></div>
+    <div data-anim="tl" class="timeline-h" style="min-height:34vh"><div class="tl-row" style="grid-template-columns:repeat(4,1fr)"><div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">6 Jan 2025</span><span class="name">Launch</span><span class="desc">Free meals start for schoolchildren and other groups</span></div></div><div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">Sep 2025</span><span class="name">Poisoning wave</span><span class="desc">BGN reports 5,914 victims at 70 sites</span></div></div><div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">Jun 2026</span><span class="name">Corruption case</span><span class="desc">BGN head named a suspect</span></div></div><div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">Jul 2026</span><span class="name">Budget ruling</span><span class="desc">Constitutional Court rules on the education budget</span></div></div></div></div>
+    <p data-anim="foot" class="pg-body" style="max-width:70ch;border-top:1px solid var(--border-subtle);padding-top:2vh">Official monitoring (SIPGN, BGN reports) tracks the <b>supply side</b>: kitchens, menus, incidents. It does not show how citizens interpret the programme.</p>
   </div>
 </section>
 
-<section class="slide light" data-layout="S11" data-animate="timeline-walk" data-slide-id="pipeline">
+<section class="slide light" data-layout="S08" data-animate="duo-mirror" data-slide-id="framework">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">03 / 14</div></div>
-    <div data-anim="line" class="pg-head"><div class="t-meta">Method · Data</div><h2 class="pg-title">571,024 posts from 164,038 accounts, September 2024 to August 2026</h2></div>
-    <div data-anim="tl" class="timeline-h" style="min-height:36vh"><div class="tl-row" style="grid-template-columns:repeat(5,1fr)"><div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">01 Collect</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Weekly keyword search; full threads of the 100 most discussed posts per month</span></div></div><div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02 Filter</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Indonesian only, spam threads out, "mbg" in the post's own text</span></div></div><div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03 Stance</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Fine-tuned IndoBERT; levels from human labels</span></div></div><div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04 Topics and network</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Keyword themes, BERTopic, PageRank, Louvain</span></div></div><div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">05 Tests</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Account-clustered bootstrap, permutation tests, event studies</span></div></div></div></div>
-    <p data-anim="foot" class="pg-body" style="border-top:1px solid var(--border-subtle);padding-top:2vh">Phases: 2024 pre-launch (685 posts) · 2025 early implementation · 2026 later implementation.</p>
-  </div>
-</section>
-
-<section class="slide light" data-layout="S20" data-animate="statement" data-slide-id="stance-method">
-  <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">04 / 14</div></div>
-    <div data-anim="line" class="pg-head"><div class="t-meta">Method · Stance</div><h2 class="pg-title">Validated against people, levels from people</h2></div>
-    <div data-anim="ledger" class="ledger" style="margin-top:3vh"><div class="led"><div class="led-n" style="font-size:min(4.2vw,7.4vh)">1,181</div><div><div class="fc-h" style="margin:0">hand-labelled posts</div><div class="pg-small">training and five-fold cross-validation; 150 more random pre-launch posts</div></div></div><div class="led accent"><div class="led-n" style="font-size:min(4.2vw,7.4vh)">κ 0.61</div><div><div class="fc-h" style="margin:0">model against the author</div><div class="pg-small">two human coders: κ 0.75 · simple models at most 0.53</div></div></div><div class="led"><div class="led-n" style="font-size:min(4.2vw,7.4vh)">≈ 6 pts</div><div><div class="fc-h" style="margin:0">model overstates negativity</div><div class="pg-small">so levels come from human labels, the model only for trends</div></div></div><div class="led"><div class="led-n" style="font-size:min(4.2vw,7.4vh)">κ 0.55</div><div><div class="fc-h" style="margin:0">second coder on random posts</div><div class="pg-small">the line between neutral and negative is the weak point</div></div></div></div>
-  </div>
-</section>
-
-<section class="slide light" data-layout="S08" data-animate="duo-mirror" data-slide-id="checks">
-  <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">05 / 14</div></div>
-    <div data-anim="line" class="pg-head"><div class="t-meta">Method · Checks</div><h2 class="pg-title">Two checks before reading posts as feedback</h2></div>
-    <div class="duo-compare" style="margin-top:5vh">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">03 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Theory · Policy feedback</div><h2 class="pg-title">Once a policy runs, it shapes how people see it.<br>How they meet it matters.</h2><p class="pg-lead">Policy feedback theory (Pierson, 1993) with Soss and Schram (2007): the same programme can be close for some people and distant for others.</p></div>
+    <div class="duo-compare" style="margin-top:3vh">
       <div class="col">
-        <div class="col-tag"><span class="num">A</span>Is it genuine?</div>
-        <div class="col-ttl">Coordination test</div>
-        <p class="col-desc">Account pairs that reply within 60 seconds of each other in at least two shared threads, compared with 100 shuffles of reply times.</p>
-        <ul class="col-list"><li>Detects timing, not intent</li><li>Flagged posts removed to see if stance changes</li></ul>
+        <div class="col-tag"><span class="num">A</span>Most users</div>
+        <div class="col-ttl">Visible but distant</div>
+        <p class="col-desc">Meet MBG through news and posts. Expected to judge it through mediated talk.</p>
+        <ul class="col-list"><li>Budget and the education share</li><li>Corruption and procurement</li><li>Politics</li></ul>
       </div>
       <span class="vrule"></span>
       <div class="col accent">
-        <div class="col-tag"><span class="num">B</span>What does it follow?</div>
-        <div class="col-ttl">Events and statistics</div>
-        <p class="col-desc">Daily theme shares 21 days around dated events, against placebo dates; BPS inflation, Sakernas, Susenas and weekly food prices (PIHPS).</p>
-        <ul class="col-list"><li>Descriptive, not causal</li><li>Each series at its own frequency</li></ul>
+        <div class="col-tag"><span class="num">B</span>Parents</div>
+        <div class="col-ttl">Visible and close</div>
+        <p class="col-desc">Their children eat the meals. Expected to judge it by what they see every day.</p>
+        <ul class="col-list"><li>The food and the portions</li><li>Food safety</li><li>Daily delivery</li></ul>
       </div>
     </div>
   </div>
 </section>
 
+<section class="slide light" data-layout="S11" data-animate="timeline-walk" data-slide-id="method">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">04 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Data and method</div><h2 class="pg-title">571,024 posts on X from 164,038 accounts, September 2024 to August 2026</h2><p class="pg-lead">Four questions: how stance changed by phase, which problems dominated, who carried the discussion, and how it lined up with official events.</p></div>
+    <div data-anim="tl" class="timeline-h" style="min-height:34vh"><div class="tl-row" style="grid-template-columns:repeat(5,1fr)"><div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">01 Collect</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Weekly keyword search for "mbg"; full threads of the 100 most discussed posts per month</span></div></div><div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02 Filter</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Indonesian only, spam out, "mbg" in the post's own text</span></div></div><div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03 Stance</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Fine-tuned IndoBERT, κ 0.61 against 1,181 hand labels (two humans: 0.75); levels from human labels</span></div></div><div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04 Topics and network</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Keyword themes, BERTopic, PageRank, Louvain communities</span></div></div><div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">05 Tests</span><span class="name" style="font-size:max(15px,min(1vw,1.8vh))">Coordination against shuffled timestamps; event studies; official statistics</span></div></div></div></div>
+    <p data-anim="foot" class="pg-small" style="border-top:1px solid var(--border-subtle);padding-top:1.6vh">Phases: 2024 pre-launch (685 posts) · 2025 early implementation · 2026 later implementation.</p>
+  </div>
+</section>
+
 <section class="slide light" data-layout="S18" data-animate="statement" data-slide-id="rq1">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">06 / 14</div></div>
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">05 / 20</div></div>
     <div data-anim="line" class="pg-head"><div class="t-meta">RQ1 · Stance · negative share, human-labelled estimate</div><h2 class="pg-title">Criticism became the majority after launch</h2></div>
     <div data-anim="cols" class="why-grid"><div class="why"><div class="t-meta">2024 · Pre-launch</div><h3 class="fc-h">Mostly supportive or neutral</h3><p class="pg-small">Plans, budget news and school trials.</p><div class="why-num">14.5%</div><div class="t-meta">95% CI 9–20%</div></div><div class="why accent"><div class="t-meta">2025 · Early</div><h3 class="fc-h">Criticism becomes the majority</h3><p class="pg-small">H1 supported: +9.5 pts in the Sep 2025 poisoning wave, mostly an earlier upward trend.</p><div class="why-num">70.7%</div><div class="t-meta">95% CI 66–75%</div></div><div class="why"><div class="t-meta">2026 · Later</div><h3 class="fc-h">Stays critical</h3><p class="pg-small">Slightly lower, still a clear majority.</p><div class="why-num">65.8%</div><div class="t-meta">95% CI 57–73%</div></div></div>
     <p data-anim="foot" class="pg-small" style="margin-top:2.4vh">Caveat: a second coder labels fewer posts negative (45% vs 68% on the same posts). Read post-launch as “a majority”, not an exact share.</p>
   </div>
 </section>
 
+<section class="slide light" data-layout="S08" data-animate="duo-mirror" data-slide-id="filter">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">06 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Results · A measurement lesson</div><h2 class="pg-title">X search also matches account names</h2><p class="pg-lead">Before the launch, a few accounts with "MBG" in their name, posting about politics in general, dominated the keyword results.</p></div>
+    <div class="duo-compare" style="margin-top:3vh">
+      <div class="col">
+        <div class="col-tag"><span class="num">A</span>Raw keyword search, 2024</div>
+        <div class="col-ttl">3,456 posts · 64% negative</div>
+        <p class="col-desc">Looks like pre-launch criticism, but most posts come from accounts named after MBG.</p>
+      </div>
+      <span class="vrule"></span>
+      <div class="col accent">
+        <div class="col-tag"><span class="num">B</span>"mbg" in the post's own text</div>
+        <div class="col-ttl">685 posts · about 15% negative</div>
+        <p class="col-desc">Announcements, school trials and support. The pre-launch result reverses; 2025 and 2026 barely change.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="slide light" data-layout="S22" data-animate="statement" data-slide-id="weekly">
   <div class="canvas-card" style="padding:0;display:flex;flex-direction:column;overflow:hidden">
-    <div data-anim="img" style="position:relative;flex:0 0 58%;padding:5.6vh 5vw 0;display:flex;flex-direction:column">
-      <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">07 / 14</div></div>
+    <div data-anim="img" style="position:relative;flex:0 0 55%;padding:5.6vh 5vw 0;display:flex;flex-direction:column">
+      <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">07 / 20</div></div>
       <div class="frame-img fit-contain" style="flex:1;min-height:0"><img src="images/07-weekly.png" alt="Weekly MBG posts on X with negative and food-safety shares, January 2025 to August 2026" style="position:absolute;inset:0;width:100%;height:100%"></div>
     </div>
-    <div data-anim="kpi" class="image-hero-body" style="padding-top:3vh;padding-bottom:var(--nav-safe-bottom)">
-      <div style="display:flex;flex-direction:column;gap:1.6vh">
-        <h2 class="pg-title" style="font-size:min(3.4vw,6vh)">Week by week, spikes follow dated events</h2>
-        <p class="pg-small">Bars: posts per week. Lines: negative share (model) and food-safety share. Numbered lines mark official events.</p>
+    <div data-anim="kpi" style="display:grid;grid-template-columns:4fr 8fr;gap:3vw;padding:3vh 5vw var(--nav-safe-bottom);flex:1;align-items:start">
+      <div style="display:flex;flex-direction:column;gap:1.4vh">
+        <h2 class="pg-title" style="font-size:min(3vw,5.3vh)">Spikes follow dated events</h2>
+        <p class="pg-small">Bars: posts per week. Lines: negative share and food-safety share. Numbers on the chart mark the events on the right.</p>
       </div>
-      <div class="image-hero-stats">
-        <div class="stat"><div class="stat-rule"></div><div class="t-meta">H1 window</div><div class="stat-n">+9.5<span class="unit">pts</span></div><p class="pg-small">negative share in the Sep 2025 wave</p></div>
-        <div class="stat"><div class="stat-rule"></div><div class="t-meta">Food safety</div><div class="stat-n">May · Sep</div><p class="pg-small">2025 peaks; official counts rise later</p></div>
-        <div class="stat"><div class="stat-rule" style="background:var(--accent)"></div><div class="t-meta">2026 volume</div><div class="stat-n" style="color:var(--accent-ink)">Jun–Aug</div><p class="pg-small">suspect named, Court ruling, Semarang poisoning</p></div>
-      </div>
+      <div class="ev-grid"><div class="ev"><span class="ev-n">1</span><div><div class="t-meta">6 Jan 2025</div><div class="pg-small" style="color:var(--text-primary)">Launch</div></div></div><div class="ev"><span class="ev-n">3</span><div><div class="t-meta">5 May 2025</div><div class="pg-small" style="color:var(--text-primary)">President: programme "99.99% successful"</div></div></div><div class="ev"><span class="ev-n">5</span><div><div class="t-meta">25 Sep 2025</div><div class="pg-small" style="color:var(--text-primary)">BGN tally: 5,914 poisoning victims at 70 sites</div></div></div><div class="ev"><span class="ev-n">7</span><div><div class="t-meta">3 Jun 2026</div><div class="pg-small" style="color:var(--text-primary)">Former BGN head named corruption suspect</div></div></div><div class="ev"><span class="ev-n">9</span><div><div class="t-meta">30 Jul 2026</div><div class="pg-small" style="color:var(--text-primary)">Constitutional Court ruling on the education budget</div></div></div><div class="ev"><span class="ev-n">10</span><div><div class="t-meta">31 Jul 2026</div><div class="pg-small" style="color:var(--text-primary)">Semarang poisoning (707 people)</div></div></div></div>
     </div>
   </div>
 </section>
 
 <section class="slide light" data-layout="S20" data-animate="statement" data-slide-id="rq2">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">08 / 14</div></div>
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">08 / 20</div></div>
     <div data-anim="line" class="pg-head"><div class="t-meta">RQ2 · Topics</div><h2 class="pg-title">From food safety to governance and corruption</h2></div>
-    <div data-anim="ledger" class="ledger"><div class="led"><div class="led-n">20% → 6%</div><div><div class="fc-h" style="margin:0">Food safety</div><div class="pg-small">share of main posts, 2025 → 2026</div></div></div><div class="led accent"><div class="led-n">3.7% → 6.3%</div><div><div class="fc-h" style="margin:0">Governance and corruption</div><div class="pg-small">share of main posts, 2025 → 2026</div></div></div><div class="led"><div class="led-n">13%</div><div><div class="fc-h" style="margin:0">Peak governance share</div><div class="pg-small">June 2026, when the BGN head was named a suspect</div></div></div></div>
-    <p data-anim="foot" class="pg-small" style="margin-top:2vh"><b style="color:var(--accent-ink)">H3 half supported.</b> The shift shows in main posts, not in replies. Criticism attaches to concrete losses: first children's health, then public money.</p>
+    <div data-anim="ledger" class="ledger"><div class="led"><div class="led-n" style="font-size:min(4.2vw,7.4vh);white-space:nowrap">20% → 6%</div><div><div class="fc-h" style="margin:0">Food safety</div><div class="pg-small">share of main posts, 2025 → 2026</div></div></div><div class="led accent"><div class="led-n" style="font-size:min(4.2vw,7.4vh);white-space:nowrap">3.7% → 6.3%</div><div><div class="fc-h" style="margin:0">Governance and corruption</div><div class="pg-small">share of main posts, 2025 → 2026</div></div></div><div class="led"><div class="led-n" style="font-size:min(4.2vw,7.4vh);white-space:nowrap">13%</div><div><div class="fc-h" style="margin:0">Peak governance share</div><div class="pg-small">June 2026, when the BGN head was named a suspect</div></div></div></div>
+    <p data-anim="foot" class="pg-small" style="margin-top:2vh"><b style="color:var(--accent-ink)">H3 half supported.</b> Main posts: food safety 20% → 6.5%, governance 3.7% → 6.3%. Replies: food safety also falls (7.3% → 3.2%), but governance stays flat at 2.3%.</p>
   </div>
 </section>
 
-<section class="slide light" data-layout="S07" data-animate="bar-grow" data-slide-id="first-hand">
+<section class="slide light" data-layout="S18" data-animate="statement" data-slide-id="topics-year">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">09 / 14</div></div>
-    <div data-anim="line" class="pg-head"><div class="t-meta">Results · Visible and close</div><h2 class="pg-title">People who meet MBG first-hand criticise the meal itself</h2><p class="pg-lead">Share of posts about the menu and portions, 2025–2026 (non-institutional accounts)</p></div>
-    <div style="display:grid;grid-template-columns:7fr 4fr;gap:4vw;align-items:start;margin-top:2vh">
-      <div class="h-bar-chart" style="grid-template-columns:11em minmax(0,1fr) 5em;gap:1.6vh 1.4vw"><div class="row-lbl">Parents<br><span class="t-meta">precision 85%</span></div><div class="row-track"><div class="row-fill accent" style="width:87.7%"></div></div><div class="row-val">30.7<span class="unit">%</span></div><div class="row-lbl">School community<br><span class="t-meta">precision 59%</span></div><div class="row-track"><div class="row-fill accent" style="width:60.9%"></div></div><div class="row-val">21.3<span class="unit">%</span></div><div class="row-lbl">Teachers<br><span class="t-meta">precision 75%</span></div><div class="row-track"><div class="row-fill accent" style="width:70.0%"></div></div><div class="row-val">24.5<span class="unit">%</span></div><div class="row-lbl">All other posts</div><div class="row-track"><div class="row-fill grey" style="width:24.0%"></div></div><div class="row-val">8.4<span class="unit">%</span></div></div>
-      <div data-anim="side" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">Negative share</div>
-        <p class="pg-small">Parents 75% · school community 78% · teachers 83% · others 70%</p>
-        <div class="t-meta" style="margin-top:1vh">Teachers: pay and workload</div>
-        <div class="why-num" style="color:var(--accent-ink);padding-top:0">18<span class="unit">% vs 3%</span></div>
-        <p class="pg-small">Governance and budget criticism comes mostly from users who know MBG from a distance.</p>
-      </div>
-    </div>
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">09 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Results · Topics (BERTopic)</div><h2 class="pg-title">From preparation to poisoning to the budget</h2><p class="pg-lead">Largest topics in each year, as a share of that year's main posts. Topics are fitted per year; 2026 talk is spread over many smaller topics.</p></div>
+    <div data-anim="cols" class="why-grid" style="margin-top:3vh"><div class="why"><div class="t-meta">2024 · pre-launch</div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Announcements and support</span><span class="tp-n">40%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">#PEKNAS campaign posts</span><span class="tp-n">24%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Trial runs in schools</span><span class="tp-n">19%</span></div></div><div class="why accent"><div class="t-meta">2025 · early implementation</div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Poisoning, schools and children</span><span class="tp-n">39%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Informal talk and "buzzers"</span><span class="tp-n">10%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Kitchens and cooking</span><span class="tp-n">4%</span></div></div><div class="why"><div class="t-meta">2026 · later implementation</div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Education, schools and budget</span><span class="tp-n">8%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Kitchens closing</span><span class="tp-n">5%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Poisoning of students</span><span class="tp-n">4%</span></div><div class="tp"><span class="pg-small" style="color:var(--text-primary)">Corruption and suspects</span><span class="tp-n">3%</span></div></div></div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S19" data-animate="statement" data-slide-id="samples">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">10 / 20</div></div>
+    <div data-anim="line" class="pg-head"><span class="accent-tick"></span><div class="t-meta">Results · In their words</div><h2 class="pg-title">What the posts sound like</h2>
+    <p class="pg-lead">Translated from Indonesian; handles and links removed.</p></div>
+    <div data-anim="cards" class="four" style="margin-top:4vh"><div class="fc"><div class="t-meta">— 2024 · positive</div><p class="fc-h" style="font-weight:300;font-style:italic">&ldquo;Enough nutrition, a bright future! The MBG programme helps prevent stunting and builds a great generation for the nation.&rdquo;</p></div><div class="fc"><div class="t-meta">— 2025 · negative</div><p class="fc-h" style="font-weight:300;font-style:italic">&ldquo;The Rp 71 trillion for MBG is just there to be shared out among themselves... there is no cure for corruption, collusion and nepotism.&rdquo;</p></div><div class="fc"><div class="t-meta">— 2025 · negative, sarcastic</div><p class="fc-h" style="font-weight:300;font-style:italic">&ldquo;Parents laid off because of the spending cuts for MBG. And then... their children get food and drinks full of preservatives.&rdquo;</p></div><div class="fc"><div class="t-meta">— 2026 · negative</div><p class="fc-h" style="font-weight:300;font-style:italic">&ldquo;They build MBG kitchens, but what reaches the children is packaged snacks and boxed milk. Are the kitchens for your karaoke?&rdquo;</p></div></div>
   </div>
 </section>
 
@@ -1873,10 +1888,10 @@
   <div class="canvas-card">
     <div class="split-half">
       <div class="half b-grey" style="padding:5.6vh 3.6vw 4.4vh">
-        <div class="chrome-min"><div class="l">RQ3 · Network</div><div class="r">10 / 14</div></div>
+        <div class="chrome-min"><div class="l">RQ3 · Network</div><div class="r">11 / 20</div></div>
         <div data-anim="left" style="display:flex;flex-direction:column;gap:1vh">
           <div class="t-meta">Share of PageRank, top 200 accounts · 2025 → 2026</div>
-          <div class="ledger" style="margin-top:1vh"><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Media</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">31.7<span class="unit">%</span> → <span style="color:var(--accent-ink)">11.0<span class="unit">%</span></span></div></div><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Individuals</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">47.5<span class="unit">%</span> → <span style="color:var(--accent-ink)">58.8<span class="unit">%</span></span></div></div><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Organisations</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">18.4<span class="unit">%</span> → <span style="color:var(--accent-ink)">26.2<span class="unit">%</span></span></div></div></div>
+          <div class="ledger" style="margin-top:1vh"><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Media</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">31.7<span class="unit">%</span> → <span style="color:var(--accent-ink)">11.0<span class="unit">%</span></span></div></div><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Individuals</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">47.5<span class="unit">%</span> → <span style="color:var(--accent-ink)">58.8<span class="unit">%</span></span></div></div><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Organisations</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">18.4<span class="unit">%</span> → <span style="color:var(--accent-ink)">26.2<span class="unit">%</span></span></div></div><div class="led" style="grid-template-columns:1fr auto;padding:2vh 0"><div class="fc-h" style="margin:0">Official</div><div class="led-n" style="font-size:min(3.6vw,6.4vh)">1.3<span class="unit">%</span> → <span style="color:var(--accent-ink)">0.3<span class="unit">%</span></span></div></div></div>
           <p class="pg-small" style="margin-top:2vh">A grassroots watchdog anchors the largest 2026 community. 67 communities in 2025, 913 in 2026.</p>
         </div>
       </div>
@@ -1896,9 +1911,61 @@
   </div>
 </section>
 
+<section class="slide light" data-layout="S22" data-animate="statement" data-slide-id="network-map">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">12 / 20</div></div>
+    <div style="display:grid;grid-template-columns:7fr 4fr;gap:3vw;flex:1;min-height:0">
+      <div data-anim="img" class="frame-img fit-contain" style="height:100%;min-height:0"><img src="images/09-network.png" alt="Reply and quote network of the most influential accounts in the eight largest communities, 2025 and 2026" style="position:absolute;inset:0;width:100%;height:100%"></div>
+      <div data-anim="text" style="display:flex;flex-direction:column;gap:2vh">
+        <div class="t-meta">Results · Network</div>
+        <h2 class="pg-title" style="font-size:min(3.2vw,5.6vh)">Communities form around anchor accounts, not around stance</h2>
+        <div class="ledger" style="margin-top:1vh">
+          <div class="led tight"><div class="t-meta" style="color:var(--accent-ink)">68–79%</div><div class="pg-small">negative in every large community, even the government-linked one</div></div>
+          <div class="led tight"><div class="t-meta">2025 → 2026</div><div class="pg-small">largest cluster anchored by media, then by a grassroots watchdog</div></div>
+          <div class="led tight"><div class="t-meta">67 → 913</div><div class="pg-small">communities: the network fragments</div></div>
+          <div class="led tight"><div class="t-meta">V 0.05</div><div class="pg-small">communities hardly differ in topic (Cramér's V)</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S20" data-animate="statement" data-slide-id="community">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">13 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Results · Topics and stance by community</div><h2 class="pg-title">Communities differ in who anchors them, not in what they say</h2></div>
+    <div data-anim="ledger" class="ledger" style="margin-top:3vh"><div class="led"><div class="led-n" style="font-size:min(3.6vw,6.4vh);white-space:nowrap">V 0.05</div><div><div class="fc-h" style="margin:0">Communities talk about the same things</div><div class="pg-small">Cramér's V between community and topic: 0.05 in 2025, 0.06 in 2026</div></div></div><div class="led"><div class="led-n" style="font-size:min(3.6vw,6.4vh);white-space:nowrap">35–42%</div><div><div class="fc-h" style="margin:0">Poisoning everywhere in 2025</div><div class="pg-small">share of each large community's posts on poisoning, schools and children</div></div></div><div class="led accent"><div class="led-n" style="font-size:min(3.6vw,6.4vh);white-space:nowrap">68–79%</div><div><div class="fc-h" style="margin:0">Every large community is critical</div><div class="pg-small">negative share, including the government-linked community, because replies to it are critical</div></div></div><div class="led"><div class="led-n" style="font-size:min(3.6vw,6.4vh);white-space:nowrap">62% / 31%</div><div><div class="fc-h" style="margin:0">The one exception, and unstable</div><div class="pg-small">2025 politics and government-linked community: negative / positive; it changes across random seeds</div></div></div></div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S18" data-animate="statement" data-slide-id="replies">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">14 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Results · Who says what</div><h2 class="pg-title">Supportive posts draw critical replies</h2></div>
+    <div data-anim="cols" class="why-grid"><div class="why"><div class="t-meta">Official accounts</div><h3 class="fc-h">Mostly positive, mostly broadcast</h3><p class="pg-small">Official accounts post supportive messages and rarely reply.</p><div class="why-num">78%</div><div class="t-meta">positive (2025–2026)</div></div><div class="why"><div class="t-meta">Individuals and organisations</div><h3 class="fc-h">Carry the criticism</h3><p class="pg-small">Ordinary users and civil-society accounts write most critical posts.</p><div class="why-num">69–74%</div><div class="t-meta">negative</div></div><div class="why accent"><div class="t-meta">Replies to positive posts</div><h3 class="fc-h">Still mostly critical</h3><p class="pg-small">Even supportive posts draw critical replies; positive replies are rare (4–7%).</p><div class="why-num">65–67%</div><div class="t-meta">of replies negative</div></div></div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S07" data-animate="bar-grow" data-slide-id="first-hand">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">15 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Results · Visible and close</div><h2 class="pg-title">People who meet MBG first-hand criticise the meal itself</h2><p class="pg-lead">Share of posts about the menu and portions, 2025–2026 (non-institutional accounts)</p></div>
+    <div style="display:grid;grid-template-columns:7fr 4fr;gap:4vw;align-items:start;margin-top:2vh">
+      <div class="h-bar-chart" style="grid-template-columns:11em minmax(0,1fr) 5em;gap:1.6vh 1.4vw"><div class="row-lbl">Parents<br><span class="t-meta">precision 85%</span></div><div class="row-track"><div class="row-fill accent" style="width:87.7%"></div></div><div class="row-val">30.7<span class="unit">%</span></div><div class="row-lbl">School community<br><span class="t-meta">precision 59%</span></div><div class="row-track"><div class="row-fill accent" style="width:60.9%"></div></div><div class="row-val">21.3<span class="unit">%</span></div><div class="row-lbl">Teachers<br><span class="t-meta">precision 75%</span></div><div class="row-track"><div class="row-fill accent" style="width:70.0%"></div></div><div class="row-val">24.5<span class="unit">%</span></div><div class="row-lbl">All other posts</div><div class="row-track"><div class="row-fill grey" style="width:24.0%"></div></div><div class="row-val">8.4<span class="unit">%</span></div></div>
+      <div data-anim="side" style="display:flex;flex-direction:column;gap:1.4vh">
+        <div class="t-meta">Negative share</div>
+        <p class="pg-small">Parents 75% · school community 78% · teachers 83% · others 70%</p>
+        <div class="t-meta" style="margin-top:1vh">Teachers: pay and workload</div>
+        <div class="why-num" style="color:var(--accent-ink);padding-top:0">18<span class="unit">% vs 3%</span></div>
+        <p class="pg-small">Governance and budget criticism comes mostly from users who know MBG from a distance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="slide light" data-layout="S22" data-animate="statement" data-slide-id="rq4">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">11 / 14</div></div>
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">16 / 20</div></div>
     <div style="display:grid;grid-template-columns:7fr 4fr;gap:3vw;flex:1;min-height:0">
       <div data-anim="img" class="frame-img fit-contain" style="height:100%;min-height:0"><img src="images/11-events.png" alt="Daily theme share 21 days around six dated official events" style="position:absolute;inset:0;width:100%;height:100%"></div>
       <div data-anim="text" style="display:flex;flex-direction:column;gap:2vh">
@@ -1919,7 +1986,7 @@
 <section class="slide light" data-layout="S22" data-animate="statement" data-slide-id="official">
   <div class="canvas-card" style="padding:0;display:flex;flex-direction:column;overflow:hidden">
     <div data-anim="img" style="position:relative;flex:0 0 58%;padding:5.6vh 5vw 0;display:flex;flex-direction:column">
-      <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">12 / 14</div></div>
+      <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">17 / 20</div></div>
       <div class="frame-img fit-contain" style="flex:1;min-height:0"><img src="images/13-prices.png" alt="Weekly prices of eggs and chicken and the share of MBG posts that mention prices" style="position:absolute;inset:0;width:100%;height:100%"></div>
     </div>
     <div data-anim="kpi" class="image-hero-body" style="padding-top:3vh;padding-bottom:var(--nav-safe-bottom)">
@@ -1941,23 +2008,31 @@
   <div class="canvas-card">
     <div class="split-half">
       <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
-        <div class="chrome-min" style="margin-bottom:0"><div class="l">13 / 14</div><div class="r">Conclusion</div></div>
+        <div class="chrome-min" style="margin-bottom:0"><div class="l">18 / 20</div><div class="r">Conclusion</div></div>
         <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh">
-          <div class="t-meta" style="letter-spacing:.22em">Implications</div>
+          <div class="t-meta" style="letter-spacing:.22em">What it means</div>
           <h2 style="font-family:var(--sans);font-size:min(7vw,12.4vh);line-height:.96;letter-spacing:-.035em;font-weight:200">MBG talk<br>turned <span style="color:var(--accent-ink);font-weight:300">critical</span><br>once it was<br>real.</h2>
         </div>
-        <div class="t-meta" style="border-top:1px solid var(--border-subtle);padding-top:2vh">Theory · method · policy</div>
+        <div class="t-meta" style="border-top:1px solid var(--border-subtle);padding-top:2vh">Implications for theory</div>
       </div>
       <div class="half r-border" style="padding:5.6vh 3.6vw 4.4vh;justify-content:center">
-        <div data-anim="rules" class="tk-list"><div class="tk"><div class="tk-n" style="">01</div><div><h3 class="fc-h" style="margin:0 0 .8vh;">Proximity matters more than time</h3><p class="pg-small">The big change came when MBG reached daily life, not between 2025 and 2026.</p></div></div><div class="tk"><div class="tk-n" style="">02</div><div><h3 class="fc-h" style="margin:0 0 .8vh;">Self-undermining feedback can show early</h3><p class="pg-small">Criticism rose while a national survey still reported high satisfaction.</p></div></div><div class="tk"><div class="tk-n" style="">03</div><div><h3 class="fc-h" style="margin:0 0 .8vh;">First-hand users judge the meal</h3><p class="pg-small">Parents, students and teachers criticise food and portions; governance criticism comes from distant users.</p></div></div><div class="tk" data-last><div class="tk-n" style="color:var(--accent-ink)">04</div><div><h3 class="fc-h" style="margin:0 0 .8vh;color:var(--accent-ink)">Add a citizen-side listening layer to SIPGN</h3><p class="pg-small">Weekly stance and theme view with human review, plus one public incident series.</p></div></div></div>
+        <div data-anim="rules" class="tk-list"><div class="tk"><div class="tk-n" style="">01</div><div><h3 class="fc-h" style="margin:0 0 .8vh;">Proximity matters more than time</h3><p class="pg-small">The big change came when MBG reached daily life, not between 2025 and 2026.</p></div></div><div class="tk"><div class="tk-n" style="">02</div><div><h3 class="fc-h" style="margin:0 0 .8vh;">Self-undermining feedback can show early</h3><p class="pg-small">Criticism rose while a national survey still reported high satisfaction.</p></div></div><div class="tk"><div class="tk-n" style="">03</div><div><h3 class="fc-h" style="margin:0 0 .8vh;">First-hand users judge the meal</h3><p class="pg-small">Parents, students and teachers criticise food and portions; governance criticism comes from distant users.</p></div></div><div class="tk" data-last><div class="tk-n" style="color:var(--accent-ink)">04</div><div><h3 class="fc-h" style="margin:0 0 .8vh;color:var(--accent-ink)">Online feedback needs checks first</h3><p class="pg-small">Who speaks, whether voices are genuine and how stance is measured all changed the results.</p></div></div></div>
       </div>
     </div>
   </div>
 </section>
 
+<section class="slide light" data-layout="S16" data-animate="statement" data-slide-id="policy">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">19 / 20</div></div>
+    <div data-anim="line" class="pg-head"><div class="t-meta">Policy implications</div><h2 class="pg-title">What monitoring could add</h2></div>
+    <div data-anim="grid" class="brief-grid" style="margin-top:3vh"><div class="brief"><div class="brief-n" style="font-size:min(2.4vw,4.3vh)">Listening layer</div><div class="brief-t">A weekly view next to SIPGN: volume, calibrated stance, theme shares and official events, with human review of every alert.</div></div><div class="brief"><div class="brief-n" style="font-size:min(2.4vw,4.3vh)">One incident series</div><div class="brief-t">Publish one timely, checkable poisoning series, and monthly complaint counts by topic from SP4N-LAPOR! and SAGI 127.</div></div><div class="brief"><div class="brief-n" style="font-size:min(2.4vw,4.3vh)">Answer, not broadcast</div><div class="brief-t">Official accounts are 78% positive and mostly one-way, while replies stay critical. Answer concrete concerns, not with slogans.</div></div><div class="brief"><div class="brief-n" style="font-size:min(2.4vw,4.3vh)">Open the books</div><div class="brief-t">Make procurement and budget information visible; governance talk peaks at legal and budget events.</div></div><div class="brief is-accent"><div class="brief-n" style="font-size:min(2.4vw,4.3vh)">Hear the school</div><div class="brief-t">Parents, students and teachers talk about menus and portions: collect their feedback at school level, and count teachers' workload.</div></div><div class="brief"><div class="brief-n" style="font-size:min(2.4vw,4.3vh)">Tested on past data</div><div class="brief-t">A two-level alert rule was tested on 79 past weeks; a dashboard concept has a public view and a BGN view.</div></div></div>
+  </div>
+</section>
+
 <section class="slide light" data-layout="S12" data-animate="statement" data-slide-id="closing">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">14 / 14</div></div>
+    <div class="chrome-min"><div class="l">MBG · Digital policy feedback</div><div class="r">20 / 20</div></div>
     <div data-anim="line" class="pg-head"><div class="t-meta">Limitations</div><h2 class="pg-title">What this thesis cannot say</h2></div>
     <div data-anim="cards" class="four" style="margin-top:3vh"><div class="fc"><div class="t-meta">— 01</div><h3 class="fc-h">X is not the public</h3><p class="pg-small">Users do not represent citizens or beneficiaries. This is discourse, not opinion.</p></div><div class="fc"><div class="t-meta">— 02</div><h3 class="fc-h">Descriptive, not causal</h3><p class="pg-small">Shows what feedback looks like, not its effect on policy or votes.</p></div><div class="fc"><div class="t-meta">— 03</div><h3 class="fc-h">Measurement</h3><p class="pg-small">Classifier error and coder dependence; levels come from human labels with intervals.</p></div><div class="fc"><div class="t-meta">— 04</div><h3 class="fc-h">Official data</h3><p class="pg-small">The incident series is incomplete and disputed, so RQ4 stays exploratory.</p></div></div>
     <div data-anim="banner" class="thanks">
@@ -1976,159 +2051,202 @@
 const SPEAKER_NOTES = [
  {
   "id": "cover",
-  "title": "Title",
+  "title": "cover",
   "section": "Opening",
-  "minutes": 0.4,
-  "purpose": "Introduce the thesis",
+  "minutes": 0.75,
+  "purpose": "Introduce the paper and affiliation",
   "talk": [
-   "Name, programme, advisor",
-   "One line: how discussion of MBG on X changed as the programme rolled out"
+   "Introduce the paper and affiliation"
   ]
  },
  {
-  "id": "questions",
-  "title": "Questions",
-  "section": "Questions",
-  "minutes": 0.8,
-  "purpose": "RQs and the one idea from theory",
+  "id": "context",
+  "title": "context",
+  "section": "Introduction",
+  "minutes": 0.75,
+  "purpose": "MBG since 6 Jan 2025; poisoning, corruption case, budget dispute; monitoring sees supply only",
   "talk": [
-   "Four questions, three hypotheses",
-   "Visible and close vs visible but distant (Soss and Schram)"
+   "MBG since 6 Jan 2025; poisoning, corruption case, budget dispute; monitoring sees supply only"
   ]
  },
  {
-  "id": "pipeline",
-  "title": "Data",
+  "id": "framework",
+  "title": "framework",
+  "section": "Theory",
+  "minutes": 0.75,
+  "purpose": "Policies shape opinion; visible but distant vs visible and close",
+  "talk": [
+   "Policies shape opinion; visible but distant vs visible and close"
+  ]
+ },
+ {
+  "id": "method",
+  "title": "method",
   "section": "Method",
-  "minutes": 0.9,
-  "purpose": "Corpus and pipeline",
+  "minutes": 0.75,
+  "purpose": "571,024 posts; filter on post text; stance validated (κ 0.61); network, coordination, events, official statistics",
   "talk": [
-   "571,024 posts, three phases",
-   "Filter on the post text because X also matches names"
-  ]
- },
- {
-  "id": "stance-method",
-  "title": "Stance",
-  "section": "Method",
-  "minutes": 1.0,
-  "purpose": "Validation of the stance measure",
-  "talk": [
-   "κ 0.61 model, 0.75 between humans",
-   "Levels from human labels; the model for trends",
-   "Second coder: the neutral/negative line is the weak point"
-  ]
- },
- {
-  "id": "checks",
-  "title": "Checks",
-  "section": "Method",
-  "minutes": 0.8,
-  "purpose": "Coordination and official comparisons",
-  "talk": [
-   "Timestamp shuffles for coordination",
-   "Event studies with placebo dates; BPS and PIHPS series"
+   "571,024 posts; filter on post text; stance validated (κ 0.61); network, coordination, events, official statistics"
   ]
  },
  {
   "id": "rq1",
-  "title": "RQ1 stance",
+  "title": "rq1",
   "section": "Results",
-  "minutes": 1.1,
-  "purpose": "Main stance result",
+  "minutes": 0.75,
+  "purpose": "About 15% negative before launch, about 70% after; H1 supported",
   "talk": [
-   "About 15% negative before launch, about 70% after",
-   "H1 supported, mostly an earlier trend"
+   "About 15% negative before launch, about 70% after; H1 supported"
+  ]
+ },
+ {
+  "id": "filter",
+  "title": "filter",
+  "section": "Results",
+  "minutes": 0.75,
+  "purpose": "X search matches account names; filtering on post text reverses the 2024 result",
+  "talk": [
+   "X search matches account names; filtering on post text reverses the 2024 result"
   ]
  },
  {
   "id": "weekly",
-  "title": "Weekly picture",
+  "title": "weekly",
   "section": "Results",
-  "minutes": 0.7,
-  "purpose": "Time series",
+  "minutes": 0.75,
+  "purpose": "Walk through the numbered events: launch, 99.99% statement, BGN tally, suspect named, Court ruling, Semarang",
   "talk": [
-   "Food-safety peaks in May and September 2025",
-   "2026 volume around legal events"
+   "Walk through the numbered events: launch, 99.99% statement, BGN tally, suspect named, Court ruling, Semarang"
   ]
  },
  {
   "id": "rq2",
-  "title": "RQ2 topics",
+  "title": "rq2",
   "section": "Results",
-  "minutes": 0.9,
-  "purpose": "Topic shift",
+  "minutes": 0.75,
+  "purpose": "Food safety down, governance up in main posts; replies: governance flat",
   "talk": [
-   "Food safety down, governance up",
-   "H3 half supported"
+   "Food safety down, governance up in main posts; replies: governance flat"
   ]
  },
  {
-  "id": "first-hand",
-  "title": "First-hand users",
+  "id": "topics-year",
+  "title": "topics-year",
   "section": "Results",
-  "minutes": 1.1,
-  "purpose": "Visible and close",
+  "minutes": 0.75,
+  "purpose": "BERTopic: preparation (2024), poisoning (2025), budget and kitchens (2026)",
   "talk": [
-   "Parents, school community, teachers write about the meal",
-   "Teachers: pay and workload, the education budget",
-   "Precision hand-checked (Appendix H)"
+   "BERTopic: preparation (2024), poisoning (2025), budget and kitchens (2026)"
+  ]
+ },
+ {
+  "id": "samples",
+  "title": "samples",
+  "section": "Results",
+  "minutes": 0.75,
+  "purpose": "Read one or two quotes aloud",
+  "talk": [
+   "Read one or two quotes aloud"
   ]
  },
  {
   "id": "rq3",
-  "title": "RQ3 network",
+  "title": "rq3",
   "section": "Results",
-  "minutes": 1.0,
-  "purpose": "Network and coordination",
+  "minutes": 0.75,
+  "purpose": "Media share 32% to 11%; official accounts barely visible (1.3% to 0.3%); coordination tiny",
   "talk": [
-   "Media share 32% to 11%",
-   "Coordination exists but is 0.14% of replies"
+   "Media share 32% to 11%; official accounts barely visible (1.3% to 0.3%); coordination tiny"
+  ]
+ },
+ {
+  "id": "network-map",
+  "title": "network-map",
+  "section": "Results",
+  "minutes": 0.75,
+  "purpose": "Communities around anchor accounts; watchdog anchors 2026; 67 to 913 communities",
+  "talk": [
+   "Communities around anchor accounts; watchdog anchors 2026; 67 to 913 communities"
+  ]
+ },
+ {
+  "id": "community",
+  "title": "community",
+  "section": "Results",
+  "minutes": 0.75,
+  "purpose": "Same topics everywhere; every large community critical",
+  "talk": [
+   "Same topics everywhere; every large community critical"
+  ]
+ },
+ {
+  "id": "replies",
+  "title": "replies",
+  "section": "Results",
+  "minutes": 0.75,
+  "purpose": "Official accounts broadcast; replies to supportive posts are critical",
+  "talk": [
+   "Official accounts broadcast; replies to supportive posts are critical"
+  ]
+ },
+ {
+  "id": "first-hand",
+  "title": "first-hand",
+  "section": "Results",
+  "minutes": 0.75,
+  "purpose": "Parents, school community, teachers talk about the meal; teachers about pay and workload",
+  "talk": [
+   "Parents, school community, teachers talk about the meal; teachers about pay and workload"
   ]
  },
  {
   "id": "rq4",
-  "title": "RQ4 events",
+  "title": "rq4",
   "section": "Results",
-  "minutes": 0.8,
-  "purpose": "Event studies",
+  "minutes": 0.75,
+  "purpose": "Same-day reaction to legal and political shocks; gradual for poisoning",
   "talk": [
-   "Same day for legal and political shocks",
-   "Gradual for poisoning"
+   "Same-day reaction to legal and political shocks; gradual for poisoning"
   ]
  },
  {
   "id": "official",
-  "title": "Official statistics",
+  "title": "official",
   "section": "Results",
-  "minutes": 0.9,
-  "purpose": "Prices and welfare indicators",
+  "minutes": 0.75,
+  "purpose": "Prices rose; talk followed the BPS statement; complaints peak later",
   "talk": [
-   "Prices rose but price talk followed the BPS statement",
-   "Welfare indicators flat or improving",
-   "Complaints peak later than discussion"
+   "Prices rose; talk followed the BPS statement; complaints peak later"
   ]
  },
  {
   "id": "implications",
-  "title": "Implications",
+  "title": "implications",
   "section": "Conclusion",
-  "minutes": 1.0,
-  "purpose": "Theory and policy",
+  "minutes": 0.75,
+  "purpose": "Implications for theory",
   "talk": [
-   "Proximity; early self-undermining feedback; first-hand users",
-   "Listening layer next to SIPGN"
+   "Implications for theory"
+  ]
+ },
+ {
+  "id": "policy",
+  "title": "policy",
+  "section": "Conclusion",
+  "minutes": 0.75,
+  "purpose": "Five policy implications; dashboard concept",
+  "talk": [
+   "Five policy implications; dashboard concept"
   ]
  },
  {
   "id": "closing",
-  "title": "Limitations and thanks",
+  "title": "closing",
   "section": "Conclusion",
-  "minutes": 0.6,
-  "purpose": "Close honestly",
+  "minutes": 0.75,
+  "purpose": "Limitations; thank the audience",
   "talk": [
-   "X is not the public; descriptive design",
-   "Thank the committee"
+   "Limitations; thank the audience"
   ]
  }
 ];

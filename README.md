@@ -1,3 +1,6 @@
-# MBG digital policy feedback: thesis defence deck
+# MBG digital policy feedback: slide decks
 
-Static HTML slide deck (14 slides). Open index.html; arrows navigate, ESC overview, P presenter.
+- `index.html`: SNU GDI APDP conference deck (20 slides).
+- `defense/index.html`: thesis defence deck (14 slides).
+
+Static HTML. Arrows navigate, ESC overview, P presenter.
